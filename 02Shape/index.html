@@ -10,12 +10,45 @@
   <body>
     <a-scene background="color: #333333">
       <a-box id="myBox"
-        width="3"
-        height="2"
-        depth="1"
-        color="#BBAA33" 
+        width="7"
+        height="3"
+        depth="2"
+        color="#a600fe"
+        position="0 1.5 -10"
+        rotation="-5 50 0"
+        scale="-2 3 1"
         shadow>
       </a-box>
+      <a-torus-knot id="myKnot"
+      width="3"
+      height="5"
+      depth="2"
+      color="#00fe9e"
+      position="0 3 -8"
+      rotation="0 5 3"
+      scale="-1 1 1"
+      shadow>
+    </a-torus-knot>
+      <a-octahedron id="myOctahedron"
+      width="4"
+      height="4"
+      depth="2"
+      color="#fedb00"
+      position="0 0 -5"
+      rotation="5 5 5"
+      scale="-1 1 1"
+      shadow>
+    </a-octahedron>
+    <a-plane id="myPlane"
+    width="4"
+    height="4"
+    depth="2"
+    color="#fe0049"
+    position="0 0 -5"
+    rotation="5 5 5"
+    scale="-1 1 1"
+    shadow>
+  </a-plane>
     </a-scene>
   </body>
 </html>
